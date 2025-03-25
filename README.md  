@@ -1,0 +1,10 @@
+# AI Chatbot with Flask
+
+This is a simple AI chatbot using Flask for the backend and an HTML-based frontend.
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-repo/chatbot-flask.git
+   cd chatbot-flask

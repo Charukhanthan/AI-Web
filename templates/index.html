@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div id="chat-container">
+        <h2 style="text-align: center; color: #58a6ff;">AI Chat</h2>
+        <div id="messages"></div>
+        <p id="typing-indicator" class="typing" style="display: none;">Bot is typing...</p>
+        <div id="input-container">
+            <textarea id="message" placeholder="Type a message..." aria-label="Chat input"></textarea>
+            <button id="sendButton" disabled>Send</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
